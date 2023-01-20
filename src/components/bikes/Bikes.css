@@ -1,0 +1,21 @@
+.bikes{
+    background-color: #F8F4EA;
+}
+
+.choose-btn{
+    border-radius: 15px;
+    border: 1px solid #A6BB8D;
+    padding: 5px 20px;
+    background-color: #C0DEFF;
+    margin: 5px;
+}
+.reset-btn{
+    border-radius: 15px;
+    border: 1px solid #A6BB8D;
+    padding: 5px 20px;
+    background-color: #FF8E9E;
+    margin: 5px;
+}
+.col-3{
+    background-color: #CDE990;
+}

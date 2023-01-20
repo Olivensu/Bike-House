@@ -1,0 +1,16 @@
+.icon{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 25px;
+}
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}

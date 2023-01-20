@@ -1,0 +1,33 @@
+.bike{
+    background-color: #FFD56F;
+    height: 550px;
+    max-width: 300px;
+    border-radius: 10px;
+    position: relative;
+}
+.padding{
+    padding: 10px 10px 0 10px;
+    
+}
+span{
+    color: gray;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    bottom: 0;
+    position: absolute;
+    border: 0;
+    background-color: #FFB26B;
+    
+}
+button span{
+    color: black;
+    margin: 5px 10px;
+}
+button:hover{
+    background-color: #FF7B54;
+}
