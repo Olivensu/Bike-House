@@ -25,20 +25,20 @@ const Bikes = () => {
         setCart(newCart);
     }
     const chooseBike=(bike)=>{
-
+        
     }
-    const resetAll = (bike) =>{
-         
+    const resetAll = () =>{
+         setCart([]);
     }
     return (
         <div className='bikes row'>
             <div className='col-9 row'>
                 {
-                    bikes.map(bike=> <Bike bike={bike} key={bike.id} addToCart={addToCart} chooseBike={chooseBike} resetAll={resetAll}></Bike>)
+                    bikes.map(bike=> <Bike bike={bike} key={bike.id} addToCart={addToCart} ></Bike>)
                 }
             </div>
             <div className='col-3'>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} chooseBike={chooseBike} resetAll={resetAll}></Cart>
             </div>
         </div>
     );

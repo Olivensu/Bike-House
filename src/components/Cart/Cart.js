@@ -10,7 +10,7 @@ const Cart = (props) => {
                 cart.map(data => <BikeInfo key = {data.id} data = {data}></BikeInfo>)
             }
             <button onClick={()=>chooseBike(cart)} className='choose-btn w-auto'>Choose 1 For Me</button>
-            <button onClick={()=>resetAll(cart)} className='reset-btn w-auto'>Reset All Item</button>
+            <button onClick={()=>resetAll()} className='reset-btn w-auto'>Reset All Item</button>
         </div>
     );
 };
