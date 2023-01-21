@@ -12,7 +12,7 @@
 span{
     color: gray;
 }
-button{
+.addTocart{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,10 @@ button{
     background-color: #FFB26B;
     
 }
-button span{
+.addTocart span{
     color: black;
     margin: 5px 10px;
 }
-button:hover{
+.addTocart:hover{
     background-color: #FF7B54;
 }

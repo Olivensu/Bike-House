@@ -5,9 +5,10 @@ import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 
 
 const Bike = (props) => {
-    const {name, seller,price,engine,power,torque,mileage,brakes,tyre,img } = props.bike
+    const {bike, addToCart} = props;
+    const {name, seller,price,engine,power,torque,mileage,brakes,tyre,img } = bike;
     return (
-        <div className='col-md-4 g-0 col-12 mx-auto mt-4 bike'>
+        <div className='col-md-4 g-0 col-12 mx-auto my-4 bike'>
             <div className='padding'>
                 <img className='img-fluid mb-2' src={img} alt="" />
                 <h4>{name}</h4>
@@ -53,7 +54,7 @@ const Bike = (props) => {
                 </div>
                 
             </div>
-            <button>
+            <button className='addTocart' onClick={()=>addToCart(bike)}>
                     <span>Add To Cart</span> 
                     <FontAwesomeIcon icon={faShoppingBasket}></FontAwesomeIcon>
                 </button>
