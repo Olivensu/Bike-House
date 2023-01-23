@@ -51,7 +51,7 @@ const Bikes = () => {
     
     }
     const resetAll = () =>{
-         setCart({});
+         setCart([]);
     }
     return (
         <div className='bikes row'>
